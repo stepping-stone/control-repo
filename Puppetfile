@@ -3,7 +3,7 @@ forge "http://forge.puppetlabs.com"
 #mod "puppetlabs/apt"
 
 # Install puppetlabs/apt and pin to the '2.2.2' tag
-mod 'apache',
+mod 'apt',
   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
   :tag => '2.2.2'
 
