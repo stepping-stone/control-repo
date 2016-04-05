@@ -1,6 +1,11 @@
 forge "http://forge.puppetlabs.com"
 
-mod "puppetlabs/apt"
+#mod "puppetlabs/apt"
+
+# Install puppetlabs/apt and pin to the '2.2.2' tag
+mod 'apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+  :tag => '2.2.2'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
